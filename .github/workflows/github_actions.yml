@@ -1,4 +1,4 @@
-name: GitHub Actions: 52
+name: GitHub Actions 52
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
