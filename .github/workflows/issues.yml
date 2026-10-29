@@ -1,0 +1,16 @@
+name: GitHub Actions 52 - 2
+run-name: ${{ github.actor }} is testing out GitHub Actions for issues event🚀!
+on: [issues]
+jobs:
+  Issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Issue Title
+        run: echo "💡 The issue title is ${{ github.event.issue.title }}."
+
+      - name: Issue Number
+        run: echo "💡 The issue number is ${{ github.event.issue.number }}."
+      
+      - name: Issue Body
+        run: echo "💡 The issue body is ${{ github.event.issue.body }}."
